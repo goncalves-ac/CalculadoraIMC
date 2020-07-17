@@ -26,5 +26,6 @@ OBSERVAÇÕES:
 ## Calculadora de IMG
 
 <a href=""> IMC </a>
+OBSERVAÇÃO: ainda não postado
 
 ### Produzido por Ana Carolina Gonçalves.
