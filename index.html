@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Código que reseta CSS -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <!-- Código que carrega arquivos CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Modal -->
+    <div id="modalIMC" class="modal-container">
+      <div class="modal">
+          <div>
+            <button class="close">x</button>
+            <h2>Nome</h2>
+            <hr>
+            <div class="dados-modal">
+              <h3 id="altura">Altura:  <span>Sua Altura</span></h3>
+              <h3 id="peso">Peso:  <span>Seu Peso</span></h3>
+              <h3 id="sexo">Sexo:  <span>Seu Sexo</span></h3>
+              <h3 id="imc">IMC:  <span>Seu IMC</span></h3>
+              <h3 id="resp"><span>Resultado</span></h3>
+            </div>
+          </div>
+          <hr>
+          <div id="img-modal"></div>
+      </div>
+    </div>
+
+
+    <section class="container">
+      <form id="formIMC">
+        <fieldset>
+          <legend>|| Calcule seu IMC ||</legend>
+          <p>
+            <input type="text" id="inputName" placeholder="Nome" />
+          </p>
+          <p>
+            <label for="inputAltura">Altura: </label><br />
+            <input
+              type="range"
+              name="inputAltura"
+              id="inputRangeAltura"
+              class="range"
+              min="1"
+              max="2"
+              step="0.01"
+              value=""
+            /><br />
+            <span id="spanAltura"></span>
+          </p>
+          <p>
+            <label for="inputPeso">Peso: </label><br />
+            <input
+              type="range"
+              name="inputPeso"
+              id="inputRangePeso"
+              class="range"
+              min="20"
+              max="150"
+              step="0.1"
+              value=""
+            /><br />
+            <span id="spanPeso"></span>
+          </p>
+          <p>
+            <label for="inputSexo">Sexo: </label><br />
+            <input
+              type="radio"
+              name="inputSexo"
+              id="inputSexoF"
+              class="inputSexo"
+              value="Feminino"
+              checked
+            />
+            <span class="spanSexo">Feminino</span>
+            <input
+              type="radio"
+              name="inputSexo"
+              id="inputSexoM"
+              class="inputSexo"
+              value="Masculino"
+            />
+            <span class="spanSexo">Masculino</span>
+          </p>
+          <input type="button" class="button" value="Calcular" onclick="calcularIMC ()" />
+        </fieldset>
+      </form>
+    </section>
+
+    <!-- Código que carrega arquivos JavaScript -->
+    <script src="./scripts/scripts.js"></script>
+  </body>
+</html>
