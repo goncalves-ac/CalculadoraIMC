@@ -23,7 +23,7 @@ OBSERVAÇÕES:
 - Para garantir que nossa calculadora de IMC seja o mais simples possível de usar, nós optamos por deixar esta variável fora de nosso cálculo.
 - Há intenção de futuras atualizações para acrescentar fatores de influencia ao IMC, como: sexo e idade, permitindo um calculo mais aproximado ao real.
 
-## Calculadora de IMG
+## Calculadora de IMC
 
 <a href=""> IMC </a>
 OBSERVAÇÃO: ainda não postado
