@@ -25,6 +25,7 @@ OBSERVAÇÕES:
 
 ## Calculadora de IMC
 
-<a href="https://goncalves-ac.github.io/CalculadoraIMC/"> IMC </a>
+Site -> <a href="https://goncalves-ac.github.io/CalculadoraIMC/"> IMC </a>
+
 <img src="https://github.com/goncalves-ac/CalculadoraIMC/blob/master/image/Tela.PNG" alt="Tela da Página" title="Tela da Página" />
 ### Produzido por Ana Carolina Gonçalves.
